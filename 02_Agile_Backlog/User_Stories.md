@@ -92,7 +92,8 @@ As a business owner
 I want defined opportunity stages
 So that all orders move through a consistent process
 
-	Acceptance Criteria Given opportunity stages are defined I should see
+	Acceptance Criteria 
+Given opportunity stages are defined I should see
 Stages include:
 •	Inquiry
 •	Quoted
