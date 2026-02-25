@@ -82,7 +82,7 @@ Given Fields created on Opportunity I should see:
 •	Fields added to Apparel Order layout
 •	Fields available for reporting
 
-	Priority: High
+Priority: High
 Story Points: 5
 
 
@@ -92,7 +92,7 @@ As a business owner
 I want defined opportunity stages
 So that all orders move through a consistent process
 
-•	Acceptance Criteria Given opportunity stages are defined I should see
+	Acceptance Criteria Given opportunity stages are defined I should see
 Stages include:
 •	Inquiry
 •	Quoted
@@ -112,7 +112,8 @@ As a business owner
 I want Salesforce to prevent incomplete orders from being approved
 So that production errors are minimized
 
-•	Acceptance Criteria: given that an incomplete order is created, there will be 
+	Acceptance Criteria:
+given that an incomplete order is created, there will be 
 •	Validation rule prevents Stage = Approved if:
 o	Garment Type is blank OR
 o	Quantity is blank OR
@@ -144,7 +145,7 @@ I want to see orders grouped by stage
 
 So that I understand the is workload and bottlenecks
 
-•	Acceptance Criteria
+	Acceptance Criteria
 Given that the orders are grouped by stages I should see
 •	Report grouped by Opportunity Stage
 •	Filtered to Apparel Order record type
@@ -159,7 +160,7 @@ As a business owner
 I want revenue segmented by Account Type
 So that I know my strongest customer segments
 
-  Acceptance Criteria
+    Acceptance Criteria
 Given that the revenue is segmented by account, I should see
 •	Revenue grouped by Account Type
 •	Total revenue displayed
@@ -168,7 +169,6 @@ Given that the revenue is segmented by account, I should see
 
 •	Priority: Medium
 Story Points: 3
-
 
 •	BA-010 Build Sales Dashboard
 	User Story
