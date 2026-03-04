@@ -6,8 +6,9 @@ I want to classify customer accounts by type
 
 So that I can segment customers and analyze revenue by category
 
-•
-Acceptance Criteria
+
+   Acceptance Criteria
+
 Given Account Type picklist field exists on the Account object
 	Picklist values include:
 o	School
