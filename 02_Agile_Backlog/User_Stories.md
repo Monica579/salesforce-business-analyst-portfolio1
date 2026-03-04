@@ -28,7 +28,6 @@ Definition of Done
 •	Tested in sandbox
 •	Demonstrated in sprint review
 
-
 •	BA-002 Add Contact Role field (Buyer, PTO Member, Administrator)
 User Story
 As a business owner
@@ -74,7 +73,8 @@ As a business owner
 I want to capture detailed order information
 So that production requirements are clearly defined
 
-	Acceptance Criteria
+Acceptance Criteria
+	
 Given Fields created on Opportunity I should see:
 •	Garment Type (Picklist)
 •	Quantity (Number)
@@ -86,14 +86,13 @@ Given Fields created on Opportunity I should see:
 Priority: High
 Story Points: 5
 
-
-
 •	BA-005 Configure Opportunity Stages for Order Lifecycle
 As a business owner
 I want defined opportunity stages
 So that all orders move through a consistent process
 
-	Acceptance Criteria 
+Acceptance Criteria 
+	
 Given opportunity stages are defined I should see
 Stages include:
 •	Inquiry
@@ -114,7 +113,7 @@ As a business owner
 I want Salesforce to prevent incomplete orders from being approved
 So that production errors are minimized
 
-	Acceptance Criteria:
+Acceptance Criteria:
 given that an incomplete order is created, there will be 
 •	Validation rule prevents Stage = Approved if:
 o	Garment Type is blank OR
@@ -147,7 +146,7 @@ I want to see orders grouped by stage
 
 So that I understand the is workload and bottlenecks
 
-	Acceptance Criteria
+Acceptance Criteria
 Given that the orders are grouped by stages I should see
 •	Report grouped by Opportunity Stage
 •	Filtered to Apparel Order record type
@@ -178,7 +177,7 @@ As a business owner
 I want a dashboard summarizing sales performance
 So that I can make informed decisions quickly
 
- 	Acceptance Criteria
+ Acceptance Criteria
 Given that a Dashboard has been created, the Dashboard should include:
 •	Orders by Stage chart
 •	Revenue by Customer Type chart
@@ -213,7 +212,7 @@ As a business owner
 I want tasks automatically created when orders move stages
 So that next steps are consistently followed
 
- 	Acceptance Criteria
+ Acceptance Criteria
 Tasks created when Stage moves to:
 •	Quoted
 •	Approved
@@ -231,7 +230,7 @@ As a business owner
 I want approval required for high-risk orders
 So that financial and operational risks are controlled
 
-	Acceptance Criteria
+Acceptance Criteria
 Approval triggered when:
 •	Rush Order = true OR
 •	Quantity exceeds defined threshold
